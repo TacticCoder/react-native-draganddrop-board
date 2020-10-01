@@ -92,7 +92,7 @@ import { Board } from 'react-native-draganddrop-board'
 
   <Board
     boardRepository={boardRepository}
-    open={() => {}
+    open={() => {}}
     onDragEnd={() => {}}
   />
 ```
@@ -139,7 +139,7 @@ import { Board } from 'react-native-draganddrop-board'
 
   <Board
     boardRepository={boardRepository}
-    open={() => {}
+    open={() => {}}
     onDragEnd={() => {}}
     cardContent={(item) => (<View><Text>{item.name}</Text></View>)}
   />
